@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script defer src="index.js" ></script> -->
+    <script defer src="index.js" ></script>
     <link rel="stylesheet" href="index.css" />
     <title>Alzheimer Light Therapy</title>
 </head>
@@ -13,13 +13,9 @@
         <p>Disclaimer: This is not an approved therapy. Use at your own peril.</p>
         <button id='light-button' >Begin</button>
     </div>
-    <div id='light' class='invisible' >
+    <div id='light' class='invisible' style='display: none' >
+    
     </div>
 </body>
-<script>
-    const button = document.getElementById('light-button');
-    button.onclick(() => {
-        console.log('clicked')
-    })
-</script>
+
 </html>

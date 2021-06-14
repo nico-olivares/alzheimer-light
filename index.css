@@ -1,3 +1,10 @@
-.invisible {
-    display: none;
+body {
+    background-color: black;
+    color: white;
+}
+
+#light {
+    
+    width: 100vw;
+    height: 100vh;
 }
